@@ -1,0 +1,61 @@
+p {
+    font-size: 22px;
+    color:white;
+    font-family:'VT323';
+    position: absolute;
+}
+
+h1 {
+    font-size:120px;
+    color:white;
+     font-family:'VT323';
+     text-align:center;
+     top:23.5%;
+     left:38%;
+     position:absolute;
+     font-weight:100;
+}
+
+div {
+    top: 46.5%;
+    left: 26%;
+    position: absolute;
+    background-color: white;
+    height: 6px;
+    width: 45%;
+}
+
+a:hover {
+  color:black;
+    
+}
+
+#acv {
+    top:48%;
+    position:absolute;
+    left:43%;
+    font-size:32PX ;
+    font-family:'VT323';
+    text-align:center;
+    line-height: 5px;
+}
+
+#bcv {
+    top:58%;
+    position:absolute;
+    left:47%;
+    font-size:32PX ;
+    font-family:'VT323';
+    text-align:center;
+    line-height: 5px;
+}
+
+#ccv {
+    top:68%;
+    position:absolute;
+    left:46%;
+    font-size:32PX ;
+    font-family:'VT323';
+    text-align:center;
+    line-height: 5px;
+}
