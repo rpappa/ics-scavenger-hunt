@@ -318,7 +318,7 @@ function countDown(time, n , mode) {
 function visualizeHighscores(mode) {
     $('#yourscore').text('Your Score: ' + score);
     if(score == 13 && mode == "whack") {
-        alert("I've got this word, \"cavengersay\", but it seems to be in another language. I think you're going to need to translate it. Oink!")
+        alert("I've got this word, \"cavengersay\", but it seems to be in another language. I think you're going to need to translate it. Oink!\n Hint: run \"git clone https://github.com/rpappa/ics-scavenger-hunt.git\" in a terminal and use the python programs we've provided")
     }
     $('#high').html(''); // clear list
   $('#endgame').fadeIn(340, ()=> { // show board
