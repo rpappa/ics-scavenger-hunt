@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Try Again</title>
+  </head>
+  <body>
+  
+    <c><p>You've hit a dead end.</p></c>
+    <br>
+    <c><p>Turn back and try again!</p></c>
+    <br>
+    <c><p><a href="https://rpappa.github.io/ics-scavenger-hunt/">Backwards</a></p></c>
+  
+  </body>
+</html>
