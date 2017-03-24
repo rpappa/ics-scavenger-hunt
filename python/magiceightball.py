@@ -6,6 +6,10 @@ import random #This imports a random phrase from the list
 
 def question(): #this makes question a function-defining the function
     original = raw_input('Ask the Magic 8-Ball a yes or no question: ') #This asks the person to ask a question (asking for an input)
+    if original == "Can war change a man?":
+        print "Use the following sentence as your next clue:"
+        print "No, it can, as it is, it is a war. Raw as it is, it is an action."
+        return
     if len(original) > 0: #If the person did not ask a question, this will print 'empty'. If the person did ask a question, it will give a response.
         print(random.choice(magic_responses)) #This prints to the console a random phrase from the list when a question is asked
         restart = raw_input('Do you want to ask the Magic 8-Ball another yes or no question? (Please input yes or no)').lower() #asks the person if they want to ask another question
