@@ -317,6 +317,9 @@ function countDown(time, n , mode) {
 /* shows the highscores board */
 function visualizeHighscores(mode) {
     $('#yourscore').text('Your Score: ' + score);
+    if(score == 13 && mode == "whack") {
+        alert("I've got this word, \"cavengersay\", but it seems to be in another language. I think you're going to need to translate it. Oink!")
+    }
     $('#high').html(''); // clear list
   $('#endgame').fadeIn(340, ()=> { // show board
     var scores = getscores(mode); // get high scores
