@@ -25,5 +25,7 @@ while True: # loops code indefinitely
     
     if pali:
         print "Yes, \"" + input + "\" is a palindrome\n" # will confirm in the console that the input was in fact a palindrome
+    if input == "No, it can, as it is, it is a war. Raw as it is, it is an action.":
+        print "Congratulations. You have reached the end of this scavenger hunt!"
     else:
         print "No, \"" + input + "\" is not a palindrome\n" # will confirm in the console that the input was not a palindrome
