@@ -22,3 +22,7 @@ p {
 p:hover {
     font-weight:900;
 }
+
+body {
+    background-color: blue;
+}
