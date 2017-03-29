@@ -1,25 +1,10 @@
-h1 { 
-    font-family: "Bungee";
-    font-weight: 100;
-    font-size: 75px;
-    top: 40%;
-    left: 9%;
-    position: absolute;
-    color: #6DBEF9;
-    line-height: 2px; 
-}
-
-h1:hover {
-    font-weight: 900;
-}
-
 p {
     position: relative;
-    left:70.8%;
+    left:30%;
     top:50%;
 }
 
-p:hover {
+a:hover {
     font-weight:900;
 }
 
