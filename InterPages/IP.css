@@ -9,4 +9,11 @@ a:hover {
     font-weight:900;
 }
 
+a:visited {
+    color: #EDCE5C;   
+}
+
+a:active {
+    color:black;
+}
 
