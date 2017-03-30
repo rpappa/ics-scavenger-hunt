@@ -5,6 +5,10 @@ p {
     color: white;
 }
 
+a {
+ color: #ADD8E6;   
+}
+
 a:hover {
     font-weight:900;
 }
