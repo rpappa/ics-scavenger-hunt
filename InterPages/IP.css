@@ -1,9 +1,11 @@
 p {
-    position: relative;
-    left:30%;
+    position: absolute;
+    left:40%;
     top:50%;
 }
 
 a:hover {
     font-weight:900;
 }
+
+
