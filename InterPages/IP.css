@@ -1,7 +1,7 @@
 p {
-    position: static;
-    left:40%;
-    top:50%;
+    position: relative;
+    left:20%;
+    top:70%;
 }
 
 a:hover {
