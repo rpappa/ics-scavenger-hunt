@@ -1,5 +1,5 @@
 p {
-    position: absolute;
+    position: static;
     left:40%;
     top:50%;
 }
