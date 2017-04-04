@@ -2,6 +2,18 @@
 <html>
   <head>
     <link type="text/css" rel="stylesheet" href="IP.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(() => {
+        $('img').hover(
+          function() {
+            $(this).attr("src", "bongrats.png")
+          }, function() {
+            $(this).attr("src", "play.jpg")
+          }
+          );
+      });
+    </script>
     <title>Try Again</title>
   </head>
   <body background="https://i.ytimg.com/vi/JquobII5VjA/maxresdefault.jpg">
