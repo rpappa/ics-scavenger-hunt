@@ -35,6 +35,11 @@ def pigfcn():
     firstletter = newword[-1:] # holds the value of the last letter
     newword = newword[:-1] # removes the last letter
     newword = firstletter + newword # adds the value of the last letter to the beginning instead of the end
+    if pigword == "cavengersay":
+        print newword
+        print "Use the following question as your next clue..."
+        print "Can war change a man?"
+        return
     if len(pigword) > 0 and pigword.isalpha():
         print newword 
         restart = raw_input("Would you like to enter another word? (y/n): ").lower()
