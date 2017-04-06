@@ -9,7 +9,7 @@ def test(phrase): # fcn that tests if entered phrase is a palindrome
     phrase = strip(phrase.lower()) # returns the inputed phrase but lowercase and removing any invalid characters
     
     for i in range(0, int((len(phrase)/2.0))): # essentially divides string by 2, thanks to ryan for help with these 5 lines of code --> https://ide.c9.io/rpappa/ics-python-pappa
-        print phrase[i] + ", " + phrase[len(phrase)-1-i] # compares the letters of the phrase from beginning to end, separated by comma
+        # print phrase[i] + ", " + phrase[len(phrase)-1-i] # compares the letters of the phrase from beginning to end, separated by comma
         if not phrase[i] == phrase[len(phrase)-1-i]: # if the letters are ever not equal, it will be false
             return False
     return True
